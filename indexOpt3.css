@@ -1,0 +1,332 @@
+.navrow {
+    height: 50px;
+    width: 100%;
+}
+
+.navrow-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    border: none;
+    width: 580px;
+}
+
+.navrow-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navrow-list li:last-child {
+    margin-right: 0;
+}
+
+.navrow-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: pxpx;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navrow-list li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.navtext {
+    display: inline-block;
+    list-style-type: none;
+    display: inline padding: 0;
+}
+
+.headshot {
+    display: flex;
+    width: 170px;
+    height: auto;
+    justify-content: start;
+    align-content: center;
+    width: 70%;
+    height: 65%;
+    border: 5px solid #FFF
+    border-radius: 50%;
+}
+
+.text-center {
+    width: 20px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contact-me {
+    font-size: 14px;
+}
+
+.contact-me span.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.Hi {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.button2 {
+    background-color: rgba(228, 207, 14, 0.948);
+    border: none;
+}
+
+.inrow3 {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-8 {
+    max-width: 1004px;
+}
+
+.p22p {
+    font-size: 50px;
+}
+
+.yellow-circle {
+    position: relative;
+    display: inline-block;
+}
+
+.yellow-circle::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(228, 207, 14, 0.948);
+    left: 4px;
+    /* Adjust this value to position the circle behind the number */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    /* Ensure the circle is behind the text */
+}
+
+.umbrella {
+    width: 30px;
+    height: 30px;
+}
+
+#bigumbrella {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.leftandright {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.progress-container {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.progress-bar1 {
+    width: 65%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.progress-bar2 {
+    width: 95%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.progress-bar3 {
+    width: 80%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.progress-bar4 {
+    width: 75%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.progress-bar5 {
+    width: 60%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.progress-bar6 {
+    width: 99%;
+    height: 10px;
+    background-color: rgba(228, 207, 14, 0.948);
+    border-radius: 10px;
+}
+
+.portpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portpagecenter{
+    text-align: center;
+}
+
+.portpics {
+    margin: 7px;
+    height: 300px;
+    width: 300px;
+}
+
+.portpicscont {
+    margin-top: 15px;
+}
+
+.row9 {
+    display: flex;
+    height: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1489px;
+    justify-content: center;
+}
+
+.bckgrdimg {
+    flex: 1; /* This makes the column expand to fill the container */
+    background-image: url(darkoffice.jpg);
+    background-size: cover; /* This ensures the background image covers the entire column */
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+
+  .lightbulb {
+    width: 350px;
+    height: auto;
+  }
+  .roundpic {
+    width: 60px;
+    height: 60px;
+    margin-left: 70px;
+  }
+
+.Danielle {  
+  margin-left: 40px;
+}
+
+  .moon {
+    margin-left: 65px;
+  }
+
+.dots-container {
+    margin-left: 33px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.glowing {
+    background-color: rgba(228, 207, 14, 0.948);
+    box-shadow: 0 0 10px rgba(228, 207, 14, 0.948);
+}
+
+.saybut {
+    display: flex;
+    justify-content: center;
+}
+
+.rowthis {
+    margin-left: 172px;
+    margin-top: 50px;
+}
+
+.rowthat {
+    margin-left: 72px;
+    margin-top: 50px;
+}
+
+.rowthere {
+    margin-left: 4px;
+    margin-top: 50px;
+}
+
+.anotherlist{
+    width: 379px;
+}
+
+.button3 {
+display: inline-block;
+padding: 10px 20px;
+background-color: black;
+color: white;
+border: none;
+font-size: 14px;
+text-transform: uppercase;
+width: 120px;
+}
+
+.row13 {
+    background-color: black;
+}
+
+.copyright {
+    margin-left: 360px;
+    margin-top: 25px;
+    height: 60px;
+    color: white;
+}
+
+.row2 {
+    color:black;
+    background-color: rgba(228, 207, 14, 0.948);
+}
+
+.row6 {
+    color:black;
+    background-color: lightgray;
+}
+
+.row8 {
+    color:black;
+    background-color: lightgray;
+}
+
+.row11 {
+    color:white;
+    background-color: gray;
+}
+
+.row12 {
+    color: black;
+    background-color: #FFEE56;
+}
